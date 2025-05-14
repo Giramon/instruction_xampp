@@ -1,0 +1,138 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.center_block {
+    width: 650px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
+.input label {
+    font-size: 20px;
+}
+
+.inp {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wi input {
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.link_text {
+    margin-top: 30px;
+}
+
+.link_text a {
+    color: black;
+    text-decoration: underline;
+}
+
+.submit_input input {
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.submit_input input:hover {
+    background-color: green;
+    color: white;
+}
+
+.step_img img {
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.title_text {
+    margin: 50px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.weight_text p {
+    font-size: 30px;
+}
+.step {
+    margin-top: 30px;
+}
+
+.step_text {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.link_go_back a {
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.inputs_check {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+#upload_database {
+    height: 25px;
+}
+
+.checkbox_select_option {
+    width: 500px;
+    padding: 20px 0px;
+}
+
+.fix {
+    text-align: left;
+    z-index: 1;
+    position: fixed;
+}
+
+.flex_use {
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.flex_use a {
+    color: black;
+}
